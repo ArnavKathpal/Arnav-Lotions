@@ -28,94 +28,94 @@ namespace Arnav_Lotions.Models
                         Quantity = 150,
                         Fragnance = "Rose",
                         Ingredients = "Oil",
-                        Rating = 4,
+                        Rating = 4
                         
                     },
 
                     new Lotion
                     {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = ""
+                        Company = "elf",
+                        Type = "Skin",
+                        Quantity = 100,
+                        Fragnance = "Almond",
+                        Ingredients = "Gluitin",
+                        Rating = 4
                     },
 
                     new Lotion
                     {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = "",
+                        Company = "Neutrogena",
+                        Type = "Body",
+                        Quantity = 75,
+                        Fragnance = "Charcoal",
+                        Ingredients = "gel",
+                        Rating = 5,
                     },
 
 
                     new Lotion
                     {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = "",
+                        Company = "Embroyolisse",
+                        Type = "Skin",
+                        Quantity = 100,
+                        Fragnance = "rose",
+                        Ingredients = "flavours",
+                        Rating = 3,
                     },
                     new Lotion
                     {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = "",
+                        Company = "Manacure",
+                        Type = "head",
+                        Quantity = 290,
+                        Fragnance = "Vanilla",
+                        Ingredients = "Flavours",
+                        Rating = 4
                     },
                     new Lotion
                     {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = ""
+                        Company = "Olay",
+                        Type = "Body",
+                        Quantity = 300,
+                        Fragnance = "charcoal",
+                        Ingredients = "coal",
+                        Rating = 4
+                        },
+                    new Lotion
+                    {
+                        Company = "Kale",
+                        Type = "skin",
+                        Quantity = 250,
+                        Fragnance = "Green tea",
+                        Ingredients = "Greaan tea",
+                        Rating = 4
                     },
                     new Lotion
                     {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = "",
+                        Company = "Kate",
+                        Type = "Face",
+                        Quantity = 180,
+                        Fragnance = "Charcoal",
+                        Ingredients = "oil free",
+                        Rating = 5
                     },
                     new Lotion
                     {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = "",
+                        Company = "Weledia",
+                        Type = "face",
+                        Quantity = 100,
+                        Fragnance = "rose",
+                        Ingredients = "gluitin",
+                        Rating = 4
                     },
                     new Lotion
                     {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = "",
-                    },
-                    new Lotion
-                    {
-                        Company = "",
-                        Type = "",
-                        Quantity = "",
-                        Fragnance = "",
-                        Ingredients = "",
-                        Rating = "",
-                    },
+                        Company = "osmia",
+                        Type = "face",
+                        Quantity = 100,
+                        Fragnance = "almond",
+                        Ingredients = "oil",
+                        Rating = 3
+                    }
                 );;
                 context.SaveChanges();
             }
