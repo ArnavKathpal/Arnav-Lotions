@@ -4,6 +4,7 @@ using Arnav_Lotions.Data;
 using System;
 using System.Linq;
 
+
 namespace Arnav_Lotions.Models
 {
     public static class SeedData
