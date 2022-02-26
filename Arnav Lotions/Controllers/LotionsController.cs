@@ -20,9 +20,17 @@ namespace Arnav_Lotions.Controllers
         }
 
         // GET: Lotions
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Lotion.ToListAsync());
+            var Lotions  = from m in _context.Lotion
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                Lotions = Lotions.Where(s => s.Company.Contains(searchString));
+            }
+
+            return View(await Lotions.ToListAsync());
         }
 
         // GET: Lotions/Details/5
